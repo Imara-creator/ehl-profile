@@ -10,6 +10,11 @@ h1{
 h2{
 	color: grey;
 }
+
+img{
+	width: 200px;
+	border-radius: 50%;
+}
 .card-white{
 	background-color: white;
 	padding: 40px;
@@ -50,16 +55,18 @@ a{
 	margin: 0 16px;
 }
 
-img{
-	width: 200px;
-	border-radius: 50%;
-}
-
 @media (max-width: 960px) {
 	.card-white {
 		background-color: lightpink;
 	}
 }
+
+.container {
+	margin: 20px auto;
+	max-width: 700px;
+	background-color: grey;
+}
+ 
 
 
 
